@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jscp</groupId>
+  <artifactId>jscp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <archive>
+    <manifest>
+      <addClasspath>true</addClasspath>
+      <mainClass>jscp</mainClass>
+    </manifest>
+  </archive>
+  
+  <dependencies>
+  	<dependency>
+		<groupId>com.jcraft</groupId>
+		<artifactId>jsch</artifactId>
+		<version>0.1.53</version>
+	</dependency>
+  </dependencies>
+  	
+</project>
