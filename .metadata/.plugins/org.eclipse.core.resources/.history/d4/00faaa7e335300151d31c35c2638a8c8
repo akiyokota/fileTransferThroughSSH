@@ -90,8 +90,7 @@ public class Jscp {
 								"2. User Password\n" +
 								"3. Hostname\n" +
 								"4. Port\n" +
-								"5. Folder Name\n" +
-								"6. Destination Folder Name");
+								"5. Folder Name\n");
 			return;
 		} 
 		try {
